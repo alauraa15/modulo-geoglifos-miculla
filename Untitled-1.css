@@ -1,0 +1,152 @@
+/* ==================== ESTILOS GENERALES Y MAQUETACIÓN ==================== */
+.contenedor-unidad {
+    max-width: 900px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+.actividad, 
+.autoevaluacion, 
+.bloque-contenido {
+    background-color: #9a5656;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+/* ==================== ACTIVIDADES ==================== */
+.tarjeta-pasaporte {
+    background-color: #f8fafc;
+    border-left: 4px solid #2563eb;
+    padding: 18px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.lista-campos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-campos li {
+    margin-bottom: 12px;
+}
+
+.linea-completar {
+    display: inline-block;
+    border-bottom: 1px solid #64748b;
+    width: 55%;
+    margin-left: 8px;
+}
+
+.linea-corta {
+    display: inline-block;
+    border-bottom: 1px solid #64748b;
+    width: 120px;
+}
+
+.grid-relacionar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.columna-elementos {
+    flex: 1;
+    min-width: 220px;
+}
+
+.columna-opciones-relacion {
+    flex: 2;
+    min-width: 280px;
+}
+
+.columna-opciones-relacion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna-opciones-relacion li {
+    margin-bottom: 8px;
+}
+
+.casilla-respuesta {
+    display: inline-block;
+    border-bottom: 1px solid #333;
+    width: 40px;
+    text-align: center;
+}
+
+/* ==================== PRUEBA DE AUTOEVALUACIÓN ==================== */
+.pregunta {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #e2e8f0;
+}
+
+.opciones {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.opciones li {
+    margin-bottom: 8px;
+}
+
+.lista-esquema li {
+    margin-bottom: 8px;
+}
+
+/* ==================== SECCIONES ESPECIALES Y FOOTER ==================== */
+.cuadro-resumen {
+    background-color: #f0f9ff;
+    border: 1px solid #bae6fd;
+    border-left: 4px solid #0284c7;
+    padding: 16px 20px;
+    border-radius: 6px;
+    margin-top: 25px;
+}
+
+.cuadro-resumen h3 {
+    color: #0369a1;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.pie-pagina {
+    margin-top: 50px;
+    padding: 30px 20px;
+    background-color: #1e293b;
+    color: #f8fafc;
+    text-align: center;
+    border-top: 4px solid #3b82f6;
+}
+
+.pie-pagina p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.arriba-container {
+    margin-top: 15px;
+}
+
+.btn-arriba {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #334155;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.85em;
+    transition: background-color 0.2s ease;
+}
+
+.btn-arriba:hover {
+    background-color: #475569;
+}
